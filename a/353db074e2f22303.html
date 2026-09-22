@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Reese's intern video diary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#15151f; --panel:#1e1e2e; --line:#2e2e42;
+    --fg:#f4f4f8; --muted:#9b9ab2; --dim:#6f6e88;
+    --violet:#7c3aed; --lilac:#c4b5fd;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--fg);
+    font:400 17px/1.62 Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:40px 20px 80px}
+  .eyebrow{
+    font-family:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--lilac);margin:0 0 14px
+  }
+  h1{font-size:clamp(28px,6vw,42px);line-height:1.15;font-weight:600;margin:0 0 18px;letter-spacing:-.02em}
+  h2{font-size:20px;font-weight:600;margin:40px 0 12px;letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  .ask{
+    border-left:3px solid var(--violet); background:#1a1a28;
+    padding:16px 18px; border-radius:0 10px 10px 0; margin:0 0 28px
+  }
+  .ask p{margin:0}
+  .ask p + p{margin-top:8px;color:var(--muted);font-size:15px}
+  video{
+    width:100%; aspect-ratio:16/9; display:block; border-radius:12px;
+    border:1px solid var(--line); background:#000; margin:0 0 10px
+  }
+  .meta{
+    font-family:"Geist Mono",ui-monospace,monospace; font-size:12px;
+    letter-spacing:.08em; color:var(--dim); text-transform:uppercase; margin:0 0 34px
+  }
+  .meta a{color:var(--dim)}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 10px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{
+    font-family:"Geist Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--dim);font-weight:400;white-space:nowrap
+  }
+  td.tc{
+    font-family:"Geist Mono",ui-monospace,monospace;font-size:13px;
+    color:var(--lilac);white-space:nowrap;width:1%
+  }
+  td.len{font-family:"Geist Mono",ui-monospace,monospace;font-size:13px;color:var(--muted);white-space:nowrap;width:1%}
+  tr.big td{color:var(--fg)}
+  tr:not(.big) td{color:var(--muted)}
+  .note{color:var(--muted);font-size:15px}
+  .draft{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:0 0 14px
+  }
+  .draft p{margin:0 0 12px}
+  .draft p:last-child{margin:0}
+  button{
+    font:500 14px Geist,system-ui,sans-serif; color:var(--fg); background:#2a2a3d;
+    border:1px solid var(--line); border-radius:8px; padding:10px 16px; cursor:pointer
+  }
+  button:hover{background:#34344a}
+  button.ok{border-color:var(--violet);color:var(--lilac)}
+  ul{margin:0 0 14px;padding-left:20px;color:var(--muted)}
+  li{margin:0 0 7px}
+  li b{color:var(--fg);font-weight:500}
+  hr{border:0;border-top:1px solid var(--line);margin:38px 0}
+  .foot{
+    font-family:"Geist Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--dim)
+  }
+  @media (max-width:520px){
+    .wrap{padding:28px 16px 60px}
+    body{font-size:16px}
+    th,td{padding:8px 6px}
+    table{font-size:14px}
+    /* a 4-column table cannot hold prose at 390px: stack each cut instead */
+    table,tbody,tr,td{display:block;width:auto}
+    tr.hd{display:none}
+    tr{border-bottom:1px solid var(--line);padding:11px 0}
+    td{border:0;padding:0}
+    td.tc,td.len{display:inline-block;width:auto;margin:0 10px 3px 0}
+    td.tc[colspan="2"]{white-space:normal}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Talisman &nbsp;·&nbsp; 22 September 2026</p>
+  <h1>Reese's intern video diary</h1>
+
+  <div class="ask">
+    <p>Watch it, then tell me if you want any of the cuts changed before it goes to Reese.</p>
+    <p>Reply in HQ Daily: <b>"send it"</b>, or name what to put back or take out.</p>
+  </div>
+
+  <video controls playsinline preload="metadata"
+         poster="https://dkh99.github.io/share/a/1f1d07115049ca54.png">
+    <source src="https://dkh99.github.io/share/a/b88014df67a4584d.mp4" type="video/mp4">
+  </video>
+  <p class="meta">3:28 &nbsp;·&nbsp; 1920&times;1080 &nbsp;·&nbsp; cut from her 4:20 portrait compile
+    &nbsp;·&nbsp; <a href="https://dkh99.github.io/share/a/b88014df67a4584d.mp4">download</a></p>
+
+  <h2>What came out</h2>
+  <p>18 cuts, 85 seconds of 260. All of it filler, dead air or a repeat. Nothing of substance went
+     and the order is unchanged. Timecodes are against her original file.</p>
+
+  <table>
+    <tr class="hd"><th>In</th><th>Out</th><th></th><th>What went</th></tr>
+    <tr class="big"><td class="tc">0:45.40</td><td class="tc">1:07.56</td><td class="len">22.2s</td>
+      <td>"and then yeah that's pretty much all I did with AI, and then I did some stuff first to me
+          with Pinterest and TikTok and stuff like that, but here are, here's what I did"</td></tr>
+    <tr><td class="tc">1:20.50</td><td class="tc">1:30.55</td><td class="len">10.1s</td>
+      <td>"and then where you can create them here, log posts, you can engage resolve them as such"</td></tr>
+    <tr><td class="tc">2:20.80</td><td class="tc">2:29.60</td><td class="len">8.8s</td>
+      <td>"and I just feel really familiar and able to do a lot at this point so", repeats
+          "really familiar" from ten seconds earlier</td></tr>
+    <tr><td class="tc">3:50.02</td><td class="tc">3:58.45</td><td class="len">8.4s</td>
+      <td>"I've learned how to use it for emails and to build stuff and to build documents and
+          things like that"</td></tr>
+    <tr class="big"><td class="tc">1:58.75</td><td class="tc">2:04.05</td><td class="len">5.3s</td>
+      <td>"I think we're gonna go with this one, this one, and then this one", her deliberating over
+          the banners on camera</td></tr>
+    <tr><td class="tc">1:49.36</td><td class="tc">1:54.20</td><td class="len">4.8s</td>
+      <td>"and then I can adjust posts if needed", with a 2.2s stall in it</td></tr>
+    <tr><td class="tc">2:45.10</td><td class="tc">2:49.05</td><td class="len">4.0s</td>
+      <td>"which is really good so that's the update"</td></tr>
+    <tr><td class="tc">1:34.55</td><td class="tc">1:38.45</td><td class="len">3.9s</td>
+      <td>dead air</td></tr>
+    <tr><td class="tc">4:02.55</td><td class="tc">4:06.12</td><td class="len">3.6s</td>
+      <td>"and I learned it so much", with a 1.8s stall</td></tr>
+    <tr><td class="tc">3:24.40</td><td class="tc">3:27.62</td><td class="len">3.2s</td>
+      <td>"At the end of my trip" said twice, and "I feel like I've learned so much", which is also
+          her closing line</td></tr>
+    <tr><td class="tc">3:44.20</td><td class="tc">3:47.25</td><td class="len">3.1s</td>
+      <td>stall on "using AI"</td></tr>
+    <tr><td class="tc" colspan="2">seven more</td><td class="len">7.9s</td>
+      <td>"Okay so", two pauses of 1.2s, a 1.5s stall on "a" before "my own app", a 2.4s stall on
+          "and", two join trims</td></tr>
+  </table>
+  <p class="note">The one I left in on purpose: "and then like she then got invited to a special
+     meeting". Tidying it would cost the rhythm of the best story in the film.</p>
+
+  <h2>What was done to it</h2>
+  <ul>
+    <li><b>Her footage stays portrait</b>, in a panel on the right at its native shape. Nothing is
+        cropped off her face.</li>
+    <li><b>The Momentum section is cropped into the laptop screen itself</b>, stabilised and blown
+        up, so her app is legible in landscape for the first time. Those are her real screens,
+        nothing was recreated.</li>
+    <li><b>Eight images generated with GPT Image 2</b>, one per chapter plus the title, quote and
+        end cards. Abstract, on the Talisman palette, no people and no invented UI, so nothing
+        fabricated sits next to a real person.</li>
+    <li><b>Title card, five chapters, a pull quote</b> on "Her boss then downloaded Claude for her",
+        and an end card on her closing line.</li>
+    <li><b>Subtitles burned in</b>, built from the cut audio, so they can only say what is audible.</li>
+    <li><b>Levelled.</b> Her five clips arrived 4dB apart, which read as the film getting louder.
+        There is a quiet bed under it now, which is synthesised rather than licensed. Say the word
+        and I will pull it.</li>
+  </ul>
+
+  <h2>Ready to send her</h2>
+  <p class="note">Talisman Slack DM, three messages, not sent.</p>
+  <div class="draft" id="draft">
+    <p>Reese - the diary is great, thank you!!</p>
+    <p>Only cuts are the filler - the Pinterest/TikTok line, the "which one shall we go with" on the
+       banners, and some of the long pauses. About 85 seconds in total.</p>
+    <p>There's a landscape version cut with those out, plus chapter cards and subtitles. Sending it now.</p>
+  </div>
+  <button id="copy">Copy the message</button>
+
+  <hr>
+  <p class="foot">Master and a no-music version are in ~/Videos &nbsp;·&nbsp; quill #1120</p>
+
+</div>
+<script>
+  document.getElementById('copy').addEventListener('click', function () {
+    var text = Array.prototype.map.call(
+      document.querySelectorAll('#draft p'), function (p) { return p.textContent.trim(); }
+    ).join('\n\n');
+    var done = function () {
+      this.textContent = 'Copied';
+      this.classList.add('ok');
+      setTimeout(function (b) { b.textContent = 'Copy the message'; b.classList.remove('ok'); }, 2000, this);
+    }.bind(this);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+    } else { fallback(text, done); }
+    function fallback(t, cb) {
+      var ta = document.createElement('textarea');
+      ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); cb(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+  });
+</script>
+</body>
+</html>
