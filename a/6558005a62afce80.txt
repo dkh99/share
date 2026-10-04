@@ -1,0 +1,138 @@
+Silver Citadel — proposed mobile and desktop journeys
+4 October 2026. Fictional HTML design concepts, not implemented product.
+Narration script; ElevenLabs recording pending credential availability.
+
+M01 — Choose your workspace
+Begin with a workspace, so tasks, files and agents all share the same context. This is a proposed experience built from HTML, not a recording of the released app. We will follow one piece of work from discovery through review.
+
+M02 — Your work, at a glance
+Command opens on your task list. The seven Thy Quill sections stay in their existing order. Short labels keep the list scannable. Status and material indicators tell you where something is happening without turning each row into a report.
+
+M03 — Find the work you need
+Choose one status filter, then optionally add text search and Has materials. Started means work began before. Agents running means someone is executing now. Needs your attention is an actual question or request, not a guess based on an idle terminal.
+
+M04 — Only the active work
+Here are the tasks with agents running. A child asking a question stays visible alongside its working parent. Unknown status has its own route. Filtering changes what you see; it never moves a row or starts an agent.
+
+M05 — One task, everything together
+Open the task through its explicit detail action. The brief, materials and associated agents now belong to one place. Editing and dragging the board row keep their existing routes. The agent can keep working while you review what it produced.
+
+M06 — A shelf for what already exists
+The material shelf reuses attachments, workspace documents and public links already bound to this task. Their labels make the difference clear: an attachment is a copied snapshot, a workspace document stays live, and a public link opens only when you choose it.
+
+M07 — Read the PDF in the task
+Read an ordinary PDF without leaving the task. Page controls and zoom are easy to reach. The copied brief keeps its revision label. Returning to materials keeps your task and reading context, rather than making you find the row again.
+
+M08 — Know when a document is live
+A workspace document is visibly live. Its current revision may be newer than the copied PDF. That distinction matters when you comment on a specific version. The interface should show freshness honestly instead of calling every file the latest.
+
+M09 — Watch without leaving the task
+Video playback belongs in Stage One. An MP4 opens inside the material view, with play, pause, seeking, elapsed time, volume and an expand action. Playback begins deliberately. Unsupported or unavailable media gets an honest explanation, not a pretend loaded player.
+
+M10 — Listen to the same material
+Audio gets a proper player too, using the existing attached file. You can pause, seek and replay. Leaving the phone player releases playback. Coming back never starts hidden sound automatically. Generating new narration is a separate capability from playing what is already attached.
+
+M11 — Reach the agent doing this work
+The agent list uses proven task associations. Rowan is the lead, and Mira is a real child in this fictional example. Selecting an agent opens that exact existing session. Unknown or ended associations are explained; opening the task never silently launches a replacement.
+
+M12 — Continue the actual conversation
+The terminal remains the actual way to work with the agent. Output, input and the execution target stay together. On the phone this is a focused screen. Back takes you to the same task, while the session itself continues running.
+
+M13 — Send with a clear target
+Before sending, the task and recipient remain visible. Here we ask Rowan to shorten the introduction in the reviewed brief. This reuses explicit communication with the existing agent. A new persistent feedback and iteration system is still separately scoped.
+
+M14 — Activity is not acceptance
+The instruction is delivered to the current session, and activity changes without pretending the task is complete. Agent completion, product QA and your own acceptance remain separate. The board is not moved or cleared just because an agent returns a successful result.
+
+M15 — Start only when you choose
+For an unstarted task, the existing launch sheet makes recipient, folder and execution target explicit. In Thy Quill, the configured start rules still apply. Simply choosing a filter, opening a material or viewing this sheet starts nothing.
+
+M16 — Edit without losing your place
+Editing stays deliberate. The task menu offers Edit, and the editor has clear Save and Cancel actions. Tapping elsewhere does not silently discard a draft. Materials stay attached to the same identity while the title changes.
+
+M17 — Add the right kind of resource
+Choose whether to attach a copied file, bind a live workspace document or add a labelled web destination. These are different operations. The interface must not quietly turn a live document into a copy, or download a public link as though it were an attachment.
+
+M18 — Open links deliberately
+A public link shows its label and destination before the deliberate open action. It stays a link. This concept uses a harmless example address, and every task and file shown in these mock-ups is fictional.
+
+M19 — Questions deserve a clear place
+Needs your attention brings real questions and approvals forward. A working lead does not hide a child waiting for you. The action takes you to the correct existing conversation, rather than a similarly named agent in another workspace.
+
+M20 — A filter cannot steal your task
+Suppose the agent stops running while you are reading its brief. The task may leave the running filter, but your open work stays put. A notice explains that it is outside the current filter, and Reveal takes you back without switching to a neighbour.
+
+M21 — Make empty results recoverable
+An empty result tells you which filters are active and offers one clear way back to all tasks. It does not look like lost data. Search and material filters are private viewing preferences, and Back restores your prior list position.
+
+M22 — Unknown is different from unstarted
+When connectivity is unavailable, the app keeps known started history and labels current agent status as unavailable. An ended connection is not proof that work never began. Available local materials can still be read, while pending actions retain their honest state.
+
+M23 — Failure states stay useful
+A damaged download, denied access or unsupported codec explains what failed and what you can do next. Retry and external opening are explicit fallbacks. They do not count as successful in-app playback for the supported formats in the Stage One requirement.
+
+M24 — The same pattern for Rituals
+Switching from Notepad to Rituals changes the whole Command context. The list, selected definition, occurrence, materials and associated agents agree. It reuses the existing scheduler rather than creating a second system with a different idea of what is running.
+
+M25 — Keep instructions and timing clear
+The definition shows the existing instructions, schedule and target. Editing the schedule is a deliberate save, separate from commenting on a report. Reviewing an output does not silently change tomorrow’s timing or launch another occurrence.
+
+M26 — Review one particular occurrence
+An occurrence keeps its own output and associated run. Open its report using the same material experience. A successful scheduler result is different from a useful report; the screen makes space for your review rather than treating green execution as approval.
+
+M27 — Do not invent a live session
+For an older occurrence, retained output remains readable even when the live terminal has ended. The app says what is available. It never reconnects you to a different session or pretends a missing transcript is a complete history.
+
+M28 — Keep code review within reach
+Control keeps its own code-review purpose. Selecting a task does not hide unrelated repository changes. On mobile, a file list drills into a focused diff with explicit review actions. The detailed task experience should not crowd out the tools already available.
+
+M29 — Read history without changing it
+Chronicle is the repository’s history, not a new captured agent-conversation archive. Open a commit and inspect its changes read-only. The proposed phone layout uses the same drilldown-and-return pattern, so every mode feels familiar.
+
+M30 — Preferences stay findable
+Armoury keeps preferences accessible. This screen previews the eventual appearance controls and readable sizing. Stage One must already be usable; Stage Two completes visual consistency. Optional future history capture is not silently enabled by this redesign.
+
+M31 — The same actions in light mode
+The light appearance has the same task actions, filters and material distinctions. This is visual polish on the working experience, not a separate workflow. Contrast, text size, touch targets and keyboard behaviour need their own real product checks later.
+
+M32 — A notification returns to the work
+A notification names the task and the agent that needs you. Following it restores the right workspace and task, even if an old filter would hide it. It should never throw your reply into whichever terminal happened to be selected previously.
+
+M33 — You decide when it is done
+Finally, review the changed material and the evidence relevant to the task. An agent finishing does not complete the board item. You decide when to accept or clear it. These flows are a proposal for your review, and the product implementation and QA remain open.
+
+D01 — The whole workspace together
+Desktop begins with the whole task context visible: Thy Quill on the left, the selected material in the centre, associated agents above the real terminal on the right. This is an HTML concept walkthrough. The aim is to rearrange what exists and fill a few specific gaps.
+
+D02 — Find the work that matters
+Filters sit above the task list. Choose one status, then combine it with text search and Has materials. Started and currently running are different. Unknown status is visible. The seven board sections, stored order and row identities remain unchanged.
+
+D03 — A brief beside a working agent
+Read the PDF while the same agent continues working alongside it. This needs independent material and terminal selection, because the current shared area chooses between them. The new viewer host reuses existing Markdown and image viewers and adds the missing ordinary PDF reader.
+
+D04 — A clear material shelf
+The shelf shows what is already attached or bound to the task. A copied PDF remains a snapshot, a workspace document is live, and a web destination remains a public link. Names, freshness and availability help you choose the right thing before giving feedback.
+
+D05 — Watch the proposed experience
+MP4 video plays inside the centre material area. Play, pause, seek, volume and expansion are ordinary first-stage controls. The agent terminal stays alive. A public URL is not automatically fetched, and a failed decoder does not masquerade as a working player.
+
+D06 — Listen and keep your context
+An attached audio file uses the same shelf and a compact player. Playback begins deliberately, and switching material stops the previous player. A filter change alone keeps your selected task and media intact. Generation, editing and transcoding remain separate proposals.
+
+D07 — Choose the exact associated agent
+The right-hand inspector shows existing task associations and actual ancestry. Here a lead is working while a child needs your answer. Selecting either one focuses its exact session. Unknown or ended links stay honest; the view does not invent a replacement agent.
+
+D08 — Give the terminal room
+Expand the terminal when you need more room, then return to the reading layout. The session, input, scrollback and execution target remain the same. Keyboard focus belongs to one control at a time, so typing into search or the viewer never sends accidental terminal input.
+
+D09 — Rituals share the composition
+The Notepad and Rituals selector changes every Command region together. Open a particular occurrence to review its output and associated run. Existing scheduler controls keep their authority. Looking at a report never changes its schedule or triggers another delivery.
+
+D10 — Control and Chronicle keep their jobs
+Control remains code review, and Chronicle remains repository history. Their scope does not shrink to the selected task. This preserves existing workflows while making task work more coherent, rather than replacing the whole application with a single new screen.
+
+D11 — State changes without losing your place
+When live status changes, counts and list membership can update without stealing selection. An open task outside the current filter stays visible with a Reveal action. Offline and unknown states are explicit, and clearing an empty filter restores the list without changing stored data.
+
+D12 — Function first, visual polish second
+Stage One delivers the task workbench, materials, ordinary readers and players, useful filters and existing-agent continuity. Stage Two completes the visual polish shown here. The PDF contains the full proposed mobile order and desktop views, ready for your review on your phone.
